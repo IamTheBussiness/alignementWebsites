@@ -1,7 +1,16 @@
+import TopPage from "../TopPage/TopPage";
 import "./Home.css";
+import Content from "../Content/Content";
 
 const Home = () => {
-  return <div>soy home</div>;
-};
+  return (
+    <>
+      <TopPage></TopPage>
+      <Content></Content>
+    </>
+  )
+
+}
 
 export default Home;
+
