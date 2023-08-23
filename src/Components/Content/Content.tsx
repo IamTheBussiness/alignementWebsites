@@ -5,7 +5,6 @@ const Content = () => {
   return (
     <>
       <div id="div-content">
-        {" "}
         <QueOfrecemos />
       </div>
     </>
