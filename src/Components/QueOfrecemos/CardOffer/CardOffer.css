@@ -1,0 +1,56 @@
+.cardOffers {
+  border: solid 1px rgb(231, 229, 229);
+  border-radius: 10px;
+  padding: 7%;
+  -webkit-box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
+  width: 90%;
+}
+
+#titleOffer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 5em;
+  color: #000;
+
+  font-family: Barlow Semi Condensed;
+  font-size: 30px;
+  font-style: normal;
+
+  line-height: normal;
+  text-transform: uppercase;
+}
+.imgCard {
+  width: 20%;
+  height: 30%;
+  margin-bottom: 5px;
+}
+
+.hDosCard {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: #000;
+
+  font-family: Barlow Semi Condensed;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  text-transform: uppercase;
+}
+
+.hTresCard {
+  color: #000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Kulim Park;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 530;
+  line-height: 140.5%; /* 33.72px */
+}
