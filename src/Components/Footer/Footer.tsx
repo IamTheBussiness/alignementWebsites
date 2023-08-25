@@ -9,14 +9,22 @@ export const Footer = () => {
     <div id="footer">
       <div className="footerTop">
         <div className="icons">
-          <img src={imgLogo} alt="Logo-Empresa" />
+          <img id="logoFooter" src={imgLogo} alt="Logo-Empresa" />
         </div>
         <div className="icons">
           <img src={imgTel} alt="Logo-Tel" />
           <div className="texto">
             <p>Télefonos:</p>
-            <p>Maxi: +34 654-83-75-08</p>
-            <p>Rodrigo: +54-911-4946-8452</p>
+            <p>
+              <a className="wap" href="https://wa.me/34654837508">
+                +34 654-83-75-08
+              </a>
+            </p>
+            <p>
+              <a className="wap" href="https://wa.me/5491149468452">
+                +54-911-4946-8452
+              </a>
+            </p>
           </div>
         </div>
         <div className="icons">
@@ -38,10 +46,10 @@ export const Footer = () => {
       </div>
       <div className="footerBottom">
         <div className="legal">
-          <p>
-            © 2023 ALIGNMENT WEBSITES ®. All rights reserved.| Privacy Policy |
-            Terms and Conditions
-          </p>
+          <p>© 2023 ALIGNMENT WEBSITES ®.</p>
+          <p>Terms and Conditions.</p>
+          <p> All rights reserved.</p>
+          <p>| Privacy Policy |</p>
         </div>
       </div>
     </div>
