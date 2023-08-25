@@ -22,14 +22,12 @@
 }
 .cardOffers:hover .imgCard {
   content: url(../../../Resources/images/mobile_friendly_white.png);
-  transition: color 0.3s ease-in-out;
 }
 
 .cardOffers:hover .hDosCard,
 .cardOffers:hover .hTresCard {
   color: aliceblue;
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.333);
-  transition: color 0.3s ease-in-out;
 }
 #titleOffer {
   text-align: center;

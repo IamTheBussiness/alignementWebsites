@@ -44,6 +44,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
+
       <div className="footerBottom">
         <div className="legal">
           <p>© 2023 ALIGNMENT WEBSITES ®.</p>
