@@ -8,34 +8,49 @@
 }
 
 #div-top {
+    padding-top: 10px;
     background-color: var(--bg-blue-color);
-    background-image: url(../../Resources/images/circles.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url(../../Resources/images/circles.svg), url(../../Resources/images/rocket.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, 12%;
+    background-position: 20% 50%, 0% 100%;
     color: white;
     width: 100vw;
     height: 100vh;
     text-align: center;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 600;
-    font-size: 4em;
+    font-size: 3em;
     display: grid;
-    align-items: center;
 }
 
 #logo {
     padding-right: 10vw;
-    display: grid;
-    justify-content: end;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+#div-workButton {
+    height: 10vh;
 }
 
 #header-text {
+    display: flex;
+    align-items: center;
+    margin: auto;
     padding: 0% 20%;
+    height: 30vh;
 }
 
+#carousel-header {
+    max-width: 56vw;
+    margin: 2vw 22vw;
+}
 
 @media screen and (max-width: 767px) {
 
@@ -51,22 +66,46 @@
         padding: 0% 10%;
     }
 
+    #header-text span {
+        vertical-align: 10em;
+        line-height: 60px;
+    }
+
     #logo {
-        padding: 0v;
+        padding: 0;
         justify-content: center;
+    }
+
+    #carousel-header {
+        max-width: 80vw;
+        margin: 2vw 10vw;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
     /* Estilos para tablets */
+
+
     #div-top {
         font-size: 3em;
         line-height: 120%;
+        background-position: 50% 100%;
+        background-image: url(../../Resources/images/circlesMobile.svg);
     }
 
     #header-text {
-        padding: 0% 15%;
+        padding: 0% 10%;
+    }
+
+    #header-text span {
+        vertical-align: 10em;
+        line-height: 60px;
+    }
+
+    #logo {
+        padding: 0;
+        justify-content: center;
     }
 }
 

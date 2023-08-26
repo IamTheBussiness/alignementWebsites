@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;300;400;600;700&display=swap');
 
-.btn {
+.btnWork {
     margin: auto;
     font-family: 'Kulim Park', sans-serif;
     font-weight: 100;
@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-.btn:hover {
+.btnWork:hover {
     transition: 200ms;
     background-color: var(--bg-lightblue-color);
     color: white;
@@ -27,15 +27,17 @@
 @media screen and (max-width: 767px) {
 
     /* Estilos para dispositivos móviles, como celulares */
-    .btn {
-        font-size: 19px;
+    .btnWork {
+        font-size: 17px;
+        padding: 2px 30px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
     /* Estilos para tablets */
-    .btn {
-        font-size: 22px;
+    .btnWork {
+        font-size: 20px;
+        padding: 2px 30px;
     }
 }

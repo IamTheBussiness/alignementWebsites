@@ -5,7 +5,7 @@ interface WorkButtonProps {
 }
 
 const WorkButton = (props: WorkButtonProps) => {
-    return <button className="btn">{props.text}</button>
+    return <button className="btnWork">{props.text}</button>
 }
 
 export default WorkButton;
