@@ -4,21 +4,23 @@ import "./QueOfrecemos.css";
 const QueOfrecemos = () => {
   return (
     <div>
-      <div id="titleOffer">
-        <h1>
-          UN SITIO WEB QUE <span id="amaras">AMARAS</span>
-        </h1>
-      </div>
-      <div className="queOfrecemos">
-        <CardOffer />
-        <CardOffer />
-        <CardOffer />
-      </div>
+      <div className="seccionQueOfrecemos">
+        <div id="titleOffer">
+          <h1>
+            UN SITIO WEB QUE <span id="amaras">AMARAS</span>
+          </h1>
+        </div>
+        <div className="queOfrecemos">
+          <CardOffer />
+          <CardOffer />
+          <CardOffer />
+        </div>
 
-      <div className="queOfrecemos">
-        <CardOffer />
-        <CardOffer />
-        <CardOffer />
+        <div className="queOfrecemos">
+          <CardOffer />
+          <CardOffer />
+          <CardOffer />
+        </div>
       </div>
     </div>
   );
