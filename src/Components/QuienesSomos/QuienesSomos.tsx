@@ -1,4 +1,3 @@
-import React from 'react'
 import "./QuienesSomos.css"
 import WorkButton from '../WorkButton/WorkButton'
 export const QuienesSomos = () => {
@@ -17,7 +16,9 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
             </div>
-            <WorkButton text={'Trabaja con nosotros'} />
+            <div id='workButton-QuienesSomos'>
+                <WorkButton text={'Trabaja con nosotros'} />
+            </div>
         </div>
     </div>
   )
