@@ -3,6 +3,7 @@
 #div-QuienesSomos{
     margin: 0% 15%;
     height: 70vh;
+    max-height: 70vh;
     display: grid;
     grid-template-columns: 2fr 3fr;
 }
@@ -12,6 +13,8 @@
     background-image: url("../../Resources/images/quienesSomos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
+    max-height: 70vh;
     height: 100%;
     width: 100%;
     border-radius: 30px;
