@@ -7,6 +7,7 @@ const Content = () => {
     <>
       <div id="div-content">
         <QueOfrecemos />
+
         <Footer />
       </div>
     </>
