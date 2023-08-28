@@ -21,7 +21,7 @@ const QueOfrecemos = () => {
         />
         <CardOffer
           titleO="Carga Rápida y Eficiente:"
-          descriptionO="Nadie tiene tiempo para esperar a que una página cargue. Con nuestra tecnología optimizada, garantizamos que tu sitio web cargará de manera rápida y eficiente, manteniendo a tus visitantes involucrados desde el primer momento."
+          descriptionO="Con nuestra tecnología optimizada, garantizamos que tu sitio web cargará de manera rápida y eficiente, manteniendo a tus visitantes involucrados desde el primer momento."
         />
       </div>
 
@@ -31,12 +31,12 @@ const QueOfrecemos = () => {
           descriptionO="La optimización para motores de búsqueda es crucial para ser encontrado en línea. Integramos técnicas de SEO en cada página que creamos, lo que aumentará tus posibilidades de aparecer en los resultados de búsqueda."
         />
         <CardOffer
-          titleO="Integración de Redes Sociales:"
+          titleO="Redes Sociales:"
           descriptionO="Conecta tu presencia en línea de manera más efectiva mediante la integración perfecta de tus perfiles de redes sociales en tu sitio web. Esto te permite llegar a un público más amplio y mantener a tus visitantes actualizados."
         />
         <CardOffer
-          titleO="Soporte y Mantenimiento Continuo:"
-          descriptionO="No te dejamos solo después de lanzar tu sitio web. Ofrecemos un soporte constante y mantenimiento para asegurarnos de que tu página siga funcionando sin problemas y esté al día con las últimas tendencias."
+          titleO="Soporte y Mantenimiento:"
+          descriptionO="No te dejamos solo, ofrecemos mantenimiento y soporte constante para asegurarnos de que tu web siga funcionando sin problemas y esté al día con las últimas tendencias."
         />
       </div>
     </div>
