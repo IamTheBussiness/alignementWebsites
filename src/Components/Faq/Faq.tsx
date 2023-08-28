@@ -1,5 +1,4 @@
 import "./faq.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import Accordion from "react-bootstrap/Accordion";
 
