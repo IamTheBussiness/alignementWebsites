@@ -2,7 +2,7 @@ import "./QuienesSomos.css"
 import WorkButton from '../WorkButton/WorkButton'
 export const QuienesSomos = () => {
   return (
-    <div id='div-QuienesSomos'>
+    <div id='div-QuienesSomos' className="seccion">
         <div id='img-QuienesSomos'>
             
         </div>
