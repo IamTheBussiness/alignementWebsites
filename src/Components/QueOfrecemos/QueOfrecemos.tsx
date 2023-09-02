@@ -14,9 +14,7 @@ const QueOfrecemos = () => {
           <CardOffer />
           <CardOffer />
           <CardOffer />
-        </div>
 
-        <div className="queOfrecemos">
           <CardOffer />
           <CardOffer />
           <CardOffer />
