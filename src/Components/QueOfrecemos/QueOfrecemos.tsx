@@ -9,7 +9,7 @@ const QueOfrecemos = () => {
           UN SITIO WEB QUE <span id="amaras">AMARAS</span>
         </h1>
       </div>
-      <div className="queOfrecemos">
+      <div className="queOfrecemos seccion">
         <CardOffer
           titleO="Diseño Responsivo de Alta Calidad:"
           descriptionO="Nuestros sitios web están diseñados para lucir espectaculares en cualquier dispositivo. Desde smartphones hasta computadoras de escritorio, tu página se verá perfecta en todos ellos."
@@ -23,9 +23,7 @@ const QueOfrecemos = () => {
           titleO="Carga Rápida y Eficiente:"
           descriptionO="Nadie tiene tiempo para esperar a que una página cargue. Con nuestra tecnología optimizada, garantizamos que tu sitio web cargará de manera rápida y eficiente, manteniendo a tus visitantes involucrados desde el primer momento."
         />
-      </div>
-
-      <div className="queOfrecemos">
+      
         <CardOffer
           titleO="SEO Incorporado:"
           descriptionO="La optimización para motores de búsqueda es crucial para ser encontrado en línea. Integramos técnicas de SEO en cada página que creamos, lo que aumentará tus posibilidades de aparecer en los resultados de búsqueda."
