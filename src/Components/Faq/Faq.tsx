@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 
 const Faq = () => {
   return (
-    <div className="contentAcordeon">
+    <div className="contentAcordeon seccion" >
       <div className="Acordeon">
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
