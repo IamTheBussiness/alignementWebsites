@@ -1,10 +1,24 @@
-* {
-
+html,
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #F4F4F4;
 }
 
-body {
-    min-height: 100vh;
+.seccion{
+    margin: 2% 20%;
+}
+
+@media screen and (max-width: 767px) {
+    /* Estilos para dispositivos móviles, como celulares */
+    .seccion{
+        margin: 2% 10%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tablets */
+    .seccion{
+        margin: 2% 12%;
+    }
 }
