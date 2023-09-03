@@ -3,13 +3,13 @@ import "./QueOfrecemos.css";
 
 const QueOfrecemos = () => {
   return (
-    <div>
+    <div className="seccion">
       <div id="titleOffer">
         <h1>
           UN SITIO WEB QUE <span id="amaras">AMARAS</span>
         </h1>
       </div>
-      <div className="queOfrecemos seccion">
+      <div className="queOfrecemos">
         <CardOffer
           titleO="Diseño Responsivo de Alta Calidad:"
           descriptionO="Nuestros sitios web están diseñados para lucir espectaculares en cualquier dispositivo. Desde smartphones hasta computadoras de escritorio, tu página se verá perfecta en todos ellos."

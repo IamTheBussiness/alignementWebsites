@@ -1,12 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
 
-.Acordeon {
-  font-family: Kulim Park;
-  font-size: 18px !important;
-}
-.accordion-item .accordion-button {
-  font-size: 20px !important;
-}
+
 .Accordion.Item {
   margin-top: 2em !important;
 }
@@ -18,7 +11,6 @@
 }
 .Accordion {
   --bs-accordion-active-bg: #ffa500 !important; /* Cambia a un color naranja */
-  font-size: 30px;
 }
 .accordion-button:not(.collapsed) {
   color: white !important;
@@ -61,7 +53,6 @@
   --bs-accordion-body-padding-y: 1rem;
   --bs-accordion-active-color: var(--bs-primary-text-emphasis);
   --bs-accordion-active-bg: var(--bs-primary-bg-subtle);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -71,4 +62,8 @@
 }
 button:focus {
   box-shadow: none !important;
+}
+
+.question{
+  font-weight: bold !important;
 }
