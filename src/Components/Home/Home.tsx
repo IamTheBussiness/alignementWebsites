@@ -8,9 +8,7 @@ const Home = () => {
       <TopPage></TopPage>
       <Content></Content>
     </>
-  )
-
-}
+  );
+};
 
 export default Home;
-
