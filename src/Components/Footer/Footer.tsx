@@ -14,33 +14,33 @@ export const Footer = () => {
         <div className="icons">
           <img src={imgTel} alt="Logo-Tel" />
           <div className="texto">
-            <p>Télefonos:</p>
-            <p>
+            <h3>Télefonos:</h3>
+            <h3>
               <a className="wap" href="https://wa.me/34654837508">
                 +34 654-83-75-08
               </a>
-            </p>
-            <p>
+            </h3>
+            <h3>
               <a className="wap" href="https://wa.me/5491149468452">
                 +54-911-4946-8452
               </a>
-            </p>
+            </h3>
           </div>
         </div>
         <div className="icons">
           <img src={imgUbicacion} alt="Logo-Ubicacion" />
           <div className="texto">
-            <p>Ubicación:</p>
-            <p>España, Málaga.</p>
-            <p>Argentina, Bs As.</p>
+            <h3>Ubicación:</h3>
+            <h3>España, Málaga.</h3>
+            <h3>Argentina, Bs As.</h3>
           </div>
         </div>
         <div className="icons">
           <img src={imgMail} alt="Logo-Mail" />
           <div className="texto">
-            <p>Mails:</p>
-            <p>chavezmaxi@gmail.com </p>
-            <p>rilago@protonmail.com</p>
+            <h3>Mails:</h3>
+            <h3>chavezmaxi@gmail.com </h3>
+            <h3>rilago@protonmail.com</h3>
           </div>
         </div>
       </div>

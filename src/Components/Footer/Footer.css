@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 #footer {
-  height: 20em;
   background-color: #001745;
+  background-image: url(../../Resources/images/circlesMobile.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, 12%;
+  background-position: right 20%, 0% 40%;
+
   padding-left: 10%;
   padding-right: 10%;
   align-items: center;
@@ -14,7 +18,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2em;
-  margin-top: 7em;
+  /* margin-top: 7em; */
 }
 
 .icons {
@@ -55,7 +59,7 @@
   margin-bottom: 3px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 885px) {
   .footerTop {
     grid-template-columns: 1fr;
   }
@@ -64,6 +68,7 @@
     height: auto;
     align-items: center;
     justify-content: center;
+    background-position: 50% 100%;
   }
 
   .logoFooter {
