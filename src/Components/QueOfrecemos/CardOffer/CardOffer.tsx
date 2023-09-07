@@ -1,16 +1,18 @@
 import "./CardOffer.css";
-import mobile_friendly from "../../../Resources/images/mobile_friendly.png";
 
 interface CardOffersProps {
+  imgO: string;
   titleO: string;
   descriptionO: string;
 }
 
-const CardOffer = ({ titleO, descriptionO }: CardOffersProps) => {
+const CardOffer = ({ imgO, titleO, descriptionO }: CardOffersProps) => {
   return (
     <div>
       <div className="cardOffers">
-        <img className="imgCard" src={mobile_friendly} alt="" />
+        <div id="divImage">
+          <img className="imgCard" src={imgO} alt="" />
+        </div>
         <h2 className="hDosCard">{titleO}</h2>
         <h3 className="hTresCard">{descriptionO}</h3>
       </div>
