@@ -46,11 +46,10 @@
   text-transform: uppercase;
 }
 #divImage {
-  width: 62px;
+  width: 60px;
   height: 70px;
   max-width: 62px;
   max-height: 70px;
-  border-style: solid;
   align-items: center;
   justify-content: center;
   display: flex;
