@@ -25,9 +25,9 @@
   -moz-box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
   box-shadow: 3px 11px 6px -8px rgba(0, 0, 0, 0.51);
 }
-.cardOffers:hover .imgCard {
+/* .cardOffers:hover .imgCard {
   content: url(../../../Resources/images/mobile.svg);
-}
+} */
 
 .cardOffers:hover .hDosCard,
 .cardOffers:hover .hTresCard {
