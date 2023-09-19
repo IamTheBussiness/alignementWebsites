@@ -17,7 +17,7 @@ const FourIcons = () => {
         <div className="fourIcons">
           <img src={cloud} alt="" />
         </div>
-        <div className="fourIcons">
+        <div id="baseDato" className="fourIcons">
           <img src={baseDatos} alt="" />
         </div>
         <div className="fourIcons">

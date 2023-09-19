@@ -30,6 +30,8 @@
 @media (max-width: 480px) {
   #iconos {
     grid-template-columns: repeat(1, 1fr);
+    vertical-align: middle;
+    text-align: center;
   }
 }
 
