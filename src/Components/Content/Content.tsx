@@ -11,7 +11,7 @@ const Content = () => {
   const [isQuienesSomosVisible, setIsQuienesSomosVisible] = useState(false);
   const [isFaqVisible, setIsFaqVisible] = useState(false);
   const [isFooterVisible, setIsFooterVisible] = useState(false);
-
+  const [isFourIcons, setIsFourIcons] = useState(false);
   const handleScroll = () => {
     const scrollTop = window.scrollY;
     const windowHeight = window.innerHeight;
@@ -21,6 +21,14 @@ const Content = () => {
       const queOfrecemosOffset = queOfrecemosElement?.offsetTop;
       if (scrollTop > queOfrecemosOffset - windowHeight) {
         setIsQueOfrecemosVisible(true);
+      }
+    }
+
+    if (!isFourIcons) {
+      const fourIconsElement = document.querySelector(".four-icons");
+      const fourIconsOffset = fourIconsElement?.offsetTop;
+      if (scrollTop > fourIconsOffset - windowHeight) {
+        setIsFourIcons(true);
       }
     }
 
@@ -58,7 +66,6 @@ const Content = () => {
 
   return (
     <>
-
       <div className="content">
         <div
           className={`fade-in que-ofrecemos ${
@@ -66,6 +73,9 @@ const Content = () => {
           }`}
         >
           <QueOfrecemos />
+        </div>
+        <div className={`fade-in four-icons ${isFourIcons ? "visible" : ""}`}>
+          <FourIcons />
         </div>
         <div
           className={`fade-in quienes-somos ${
@@ -80,7 +90,6 @@ const Content = () => {
         <div className={`fade-in footer ${isFooterVisible ? "visible" : ""}`}>
           <Footer />
         </div>
-
       </div>
     </>
   );
