@@ -89,7 +89,10 @@ export const QuienesSomos = () => {
           </h3>
         </div>
         <div id="workButton-QuienesSomos">
-          <WorkButton text={"Trabaja con nosotros"} />
+          <WorkButton
+            text={"Trabaja con nosotros"}
+            emailLink={"mailto:chavezmaxi@gmail.com"}
+          />
         </div>
       </div>
     </div>
