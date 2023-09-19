@@ -65,7 +65,7 @@ export const QuienesSomos = () => {
   return (
     <div
       id="div-QuienesSomos"
-      className={`seccion ${isAnimationActive ? "roll-in-left" : ""}`}
+      className={`seccion ${isAnimationActive ? "puff-in-hor" : ""}`}
     >
       <div id="img-QuienesSomos"></div>
       <div id="div-QuienesSomosContent">
