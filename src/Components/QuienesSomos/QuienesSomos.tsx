@@ -74,13 +74,18 @@ export const QuienesSomos = () => {
         </div>
         <div id="text-QuienesSomos">
           <h3>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. Lorem Ipsum has been
-            the industry's standard dummy text ever since the 1500s, when an
-            unknown printer took a galley of type and scrambled it to make a
-            type specimen book.
+            Con una sólida trayectoria de más de 7 años en el mundo del diseño y
+            desarrollo web, nuestro equipo se enorgullece de crear soluciones
+            digitales excepcionales, estando siempre a la vanguardia de las
+            tendencias y tecnologías emergentes. Comprendemos la importancia de
+            una presencia en línea efectiva en la era digital actual y estamos
+            aquí para fusionar la creatividad con la experiencia técnica,
+            ofreciendo resultados sobresalientes y un enfoque personalizado para
+            cada proyecto.
+          </h3>
+          <h3>
+            Te invitamos a unirte a nosotros y expandir tu negocio en línea con
+            soluciones digitales excepcionales.
           </h3>
         </div>
         <div id="workButton-QuienesSomos">
