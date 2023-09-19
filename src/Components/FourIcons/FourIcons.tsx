@@ -1,7 +1,8 @@
 import cloud from "../../Resources/images/cloudComp.svg";
 import baseDatos from "../../Resources/images/baseDatos.svg";
 import contenedores from "../../Resources/images/contenedores.svg";
-import bases from "../../Resources/images/datos.svg";
+
+import desarroloP from "../../Resources/images/desaPerso.svg";
 import "./FourIcons.css";
 
 const FourIcons = () => {
@@ -16,14 +17,14 @@ const FourIcons = () => {
         <div className="fourIcons">
           <img src={cloud} alt="" />
         </div>
-        <div className="fourIcons">
+        <div id="baseDato" className="fourIcons">
           <img src={baseDatos} alt="" />
         </div>
         <div className="fourIcons">
           <img src={contenedores} alt="" />
         </div>
         <div className="fourIcons">
-          <img src={bases} alt="" />
+          <img src={desarroloP} alt="" />
         </div>
       </div>
     </div>
