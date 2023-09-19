@@ -1,16 +1,44 @@
 import "./CardOffer.css";
-import mobile_friendly from "../../../Resources/images/mobile_friendly.png";
+import { useState } from "react";
 
 interface CardOffersProps {
+  imgOblue: string;
+  imgOwhite: string;
   titleO: string;
   descriptionO: string;
 }
 
-const CardOffer = ({ titleO, descriptionO }: CardOffersProps) => {
+const CardOffer = ({
+  imgOblue,
+  imgOwhite,
+  titleO,
+  descriptionO,
+}: CardOffersProps) => {
+  // eslint-disable-next-line
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
     <div>
-      <div className="cardOffers">
-        <img className="imgCard" src={mobile_friendly} alt="" />
+      <div
+        className="cardOffers"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <div id="divImage">
+          <img
+            className="imgCard"
+            src={isHovered ? imgOwhite : imgOblue}
+            alt=""
+          />
+        </div>
         <h2 className="hDosCard">{titleO}</h2>
         <h3 className="hTresCard">{descriptionO}</h3>
       </div>
