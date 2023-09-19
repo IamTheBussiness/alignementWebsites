@@ -1,11 +1,20 @@
-import "./WorkButton.css"
+import "./WorkButton.css";
 
 interface WorkButtonProps {
-    text: string;
+  text: string;
+  emailLink: string;
 }
 
 const WorkButton = (props: WorkButtonProps) => {
-    return <button className="btnWork">{props.text}</button>
-}
+  const handleEmailClick = () => {
+    window.location.href = props.emailLink;
+  };
+
+  return (
+    <button className="btnWork" onClick={handleEmailClick}>
+      {props.text}
+    </button>
+  );
+};
 
 export default WorkButton;
