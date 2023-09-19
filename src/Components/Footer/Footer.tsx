@@ -1,15 +1,15 @@
 import "./Footer.css";
-import imgLogo from "../../Resources/images/logo.svg";
 import imgTel from "../../Resources/images/telefono.svg";
 import imgUbicacion from "../../Resources/images/ubicacion.png";
 import imgMail from "../../Resources/images/correo.png";
+import logoF from "../../Resources/images/LOGOFot.svg";
 
 export const Footer = () => {
   return (
     <div id="footer">
       <div className="footerTop">
         <div className="logoFooter">
-          <img id="logoFooter" src={imgLogo} alt="Logo-Empresa" />
+          <img id="logoFooter" src={logoF} alt="Logo-Empresa" />
         </div>
         <div className="icons">
           <img src={imgTel} alt="Logo-Tel" />
