@@ -18,3 +18,26 @@
   text-align: center;
   margin-top: 3em;
 }
+
+/* tablet (2 en 2) */
+@media (max-width: 768px) {
+  #iconos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* celus (1 en 1) */
+@media (max-width: 480px) {
+  #iconos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+#tituloIcon {
+  font-family: "Barlow Semi Condensed", sans-serif !important;
+  font-size: 30px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  text-align: center;
+  margin-top: 3em;
+}
