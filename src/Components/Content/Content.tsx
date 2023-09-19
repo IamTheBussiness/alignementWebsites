@@ -2,6 +2,7 @@ import Faq from "../Faq/Faq";
 import { Footer } from "../Footer/Footer";
 import QueOfrecemos from "../QueOfrecemos/QueOfrecemos";
 import { QuienesSomos } from "../QuienesSomos/QuienesSomos";
+import FourIcons from "../FourIcons/FourIcons";
 import "./Content.css";
 import { useEffect, useState } from "react";
 
@@ -57,6 +58,7 @@ const Content = () => {
 
   return (
     <>
+
       <div className="content">
         <div
           className={`fade-in que-ofrecemos ${
@@ -78,6 +80,7 @@ const Content = () => {
         <div className={`fade-in footer ${isFooterVisible ? "visible" : ""}`}>
           <Footer />
         </div>
+
       </div>
     </>
   );
