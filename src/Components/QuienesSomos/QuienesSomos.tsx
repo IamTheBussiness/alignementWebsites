@@ -52,7 +52,7 @@ export const QuienesSomos = () => {
         <div id="workButton-QuienesSomos">
           <WorkButton
             text={"Trabaja con nosotros"}
-            emailLink={"mailto:chavezmaxi@gmail.com"}
+            emailLink={"mailto:info@impacto-web.com"}
           />
         </div>
       </div>

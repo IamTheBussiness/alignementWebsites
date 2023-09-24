@@ -7,9 +7,7 @@ const TopPage = () => {
     <>
       <div id="div-top">
         <div id="logo">
-
           <img src={logo} alt="Alignment Websites" />
-
         </div>
         <div id="header-text">
           <span>
@@ -18,12 +16,10 @@ const TopPage = () => {
           </span>
         </div>
         <div id="div-workButton">
-
           <WorkButton
             text={"Trabaja con nosotros"}
-            emailLink={"mailto:chavezmaxi@gmail.com"}
+            emailLink={"mailto:info@impacto-web.com"}
           />
-
         </div>
 
         <div id="carousel-header">
