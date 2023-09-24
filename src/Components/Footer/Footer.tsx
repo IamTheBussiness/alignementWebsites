@@ -39,8 +39,7 @@ export const Footer = () => {
           <img src={imgMail} alt="Logo-Mail" />
           <div className="texto">
             <h3>Mails:</h3>
-            <h3>chavezmaxi@gmail.com </h3>
-            <h3>rilago@protonmail.com</h3>
+            <h3>info@impacto-web.com </h3>
           </div>
         </div>
       </div>
