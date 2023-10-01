@@ -36,11 +36,17 @@ export const Footer = () => {
           </div>
         </div>
         <div className="icons">
-          <img src={imgMail} alt="Logo-Mail" />
-          <div className="texto">
+          <img src={imgMail} id="mailLogo" alt="Logo-Mail" />
+          {/* <div className="texto">
             <h3>Mail:</h3>
             <h3>info@impacto-web.com </h3>
-          </div>
+          </div> */}
+          <h3>
+            <h3>Mail:</h3>
+            <a className="wap" href="mailto:info@impacto-web.com">
+              info@impacto-web.com
+            </a>
+          </h3>
         </div>
       </div>
 
